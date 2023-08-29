@@ -64,14 +64,15 @@ table.reportTable th {
   text-align: center;
 }
 
-table.reportTable tr:first-child th {
+.reportTable tr:first-child th {
 position: sticky;
 background-color: white;
 height: 20px !important;
+min-height: 20px !important;
 top: 0;
 }
  
-table.reportTable tr:nth-child(2) th {
+.reportTable tr:nth-child(2) th {
 position: sticky;
 background-color: white;
 top: 30px !important;
@@ -89,7 +90,7 @@ table.reportTable td {
   border-bottom: 1px solid #FFFFFF !important;
   font-weight: bold;
   padding: 5px;
-  text-align: center;
+  text-align: center !important;
   color: blue;
 }
 
@@ -107,7 +108,7 @@ table.reportTable td {
 }
 
 .nonNumeric {
-  text-align: center;
+  text-align: center !important;
 }
 
 .numeric {
