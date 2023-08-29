@@ -62,8 +62,21 @@ table.reportTable th {
   background-color: #012169 !important;
   color : white;
   text-align: center;
-  position: sticky;
-  top:0;
+}
+
+table.reportTable tr:first-child th {
+position: sticky;
+background-color: white;
+height: 20px;
+top: 0;
+}
+ 
+table.reportTable tr:nth-child(2) th {
+position: sticky;
+background-color: white;
+top: 30px;
+height: 20px;
+text-align: center !important;
 }
 
 table.reportTable td {
