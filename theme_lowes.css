@@ -75,6 +75,7 @@ table.reportTable td {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
+  text-align: center;
 }
 
 .indexCell.transposed {
