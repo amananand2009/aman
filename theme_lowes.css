@@ -76,7 +76,7 @@ top: 0;
 position: sticky;
 background-color: white;
 top: 30px !important;
-text-align: left !important;
+text-align: center !important;
 }
 
 .reportTable td {
@@ -108,7 +108,7 @@ text-align: left !important;
 }
 
 .nonNumeric {
-  text-align: center !important;
+  text-align: left;
 }
 
 .numeric {
