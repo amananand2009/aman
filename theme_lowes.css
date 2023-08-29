@@ -72,10 +72,11 @@ table.reportTable td {
 }
 
 .headerCell {
-  border-bottom: 1px solid #000000 !important;
+  border-bottom: 1px solid #FFFFFF !important;
   font-weight: bold;
   padding: 5px;
   text-align: center;
+  color: blue;
 }
 
 .indexCell.transposed {
