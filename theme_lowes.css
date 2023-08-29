@@ -67,6 +67,7 @@
 .reportTable tr:first-child th {
 position: sticky;
 height: 20px !important;
+background-color: black!important;
 min-height: 20px !important;
 top: 0;
 }
