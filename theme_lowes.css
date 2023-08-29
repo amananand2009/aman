@@ -67,16 +67,15 @@ table.reportTable th {
 table.reportTable tr:first-child th {
 position: sticky;
 background-color: white;
-height: 20px;
+height: 20px !important;
 top: 0;
 }
  
 table.reportTable tr:nth-child(2) th {
 position: sticky;
 background-color: white;
-top: 30px;
-height: 20px;
-text-align: center !important;
+top: 30px !important;
+text-align: left !important;
 }
 
 table.reportTable td {
@@ -108,7 +107,7 @@ table.reportTable td {
 }
 
 .nonNumeric {
-  text-align: left;
+  text-align: center;
 }
 
 .numeric {
