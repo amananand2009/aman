@@ -55,7 +55,7 @@
   border-spacing: 3px;
 }
 
-table.reportTable th {
+.reportTable th {
   border: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc !important;
   padding: 5px;
@@ -79,7 +79,7 @@ top: 30px !important;
 text-align: left !important;
 }
 
-table.reportTable td {
+.reportTable td {
   vertical-align: super;
   padding: 5px;	
   border: 1px solid #cccccc;
