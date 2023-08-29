@@ -63,7 +63,7 @@ table.reportTable th {
   color : white;
   text-align: center;
   position: sticky;
-  z-index: 3;
+  top:0;
 }
 
 table.reportTable td {
