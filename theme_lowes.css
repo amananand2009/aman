@@ -70,12 +70,26 @@ height: 20px !important;
 background-color: #0047AB !important;
 min-height: 20px !important;
 top: 0;
+z-index: 10;
 }
  
 .reportTable tr:nth-child(2) th {
 position: sticky;
 top: 30px !important;
 text-align: center !important;
+z-index: 10;
+}
+
+.reportTable tr th:nth-child(1){
+ position: sticky;
+ left: 0;
+ z-index: 20;
+ }
+
+.reportTable table td:first-child {
+ position: sticky;
+ left: 0;
+ background-color: #dddddd !important;
 }
 
 .reportTable td {
