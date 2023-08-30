@@ -83,14 +83,12 @@ z-index: 10;
 .reportTable tr th:nth-child(1){
  position: sticky;
  left: 0;
- width: 50px;
  z-index: 20;
  }
 
 .reportTable tr td:nth-child(1) {
  position: sticky;
  left: 0;
- width: 50px;
  background-color: #dddddd !important;
 }
 
