@@ -64,20 +64,20 @@
 }
 
 .reportTable tr:nth-child(1) th {
-position: sticky;
-background-color: #0047AB !important;
-height: 40px ;
-top: 0;
-z-index: 10;
+ position: sticky;
+ height: 40px;
+ background-color: #0047AB !important;
+ min-height: 20px;
+ top: 0;
+ z-index: 10;
 }
- 
-.reportTable tr:nth-child(2) th {
-position: sticky;
-background-color: #6495ED !important;    
-top: 50px ;
-height: 40px;  
-text-align: center !important;
-z-index: 10;
+
+tr:nth-child(2) th {
+ position: sticky;
+ top: 50px;
+ background-color: #6495ED!important;
+ text-align: center!important;
+ z-index: 10;
 }
 
 .reportTable tr:nth-child(1) th:nth-child(1){
