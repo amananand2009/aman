@@ -80,17 +80,6 @@ text-align: center !important;
 z-index: 10;
 }
 
-.reportTable tr th:nth-child(1){
- position: sticky;
- left: 0;
- z-index: 20;
- }
-
-.reportTable tr td:nth-child(1) {
- position: sticky;
- left: 0;
-}
-
 .reportTable td {
   vertical-align: super;
   padding: 5px;	
