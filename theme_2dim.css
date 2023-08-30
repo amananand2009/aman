@@ -78,7 +78,7 @@ position: sticky;
 top: 150px !important;
 text-align: center !important;
 z-index: 10;
-background-color: red !important;  
+background-color: #6495ED !important;  
 }
 
 .reportTable tr:nth-child(1) th:nth-child(1){
