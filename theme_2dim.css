@@ -67,8 +67,6 @@
 position: sticky;
 background-color: #0047AB !important;
 height: 40px ;
-min-height: 40px ;
-max-height: 40px ;
 top: 0;
 z-index: 10;
 }
@@ -77,6 +75,7 @@ z-index: 10;
 position: sticky;
 background-color: #6495ED !important;    
 top: 50px ;
+height: 40px;  
 text-align: center !important;
 z-index: 10;
 }
