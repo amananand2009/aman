@@ -86,7 +86,7 @@ z-index: 10;
  z-index: 20;
  }
 
-.reportTable tr td:first-child {
+.reportTable tr td:nth-child(1) {
  position: sticky;
  left: 0;
  background-color: #dddddd !important;
