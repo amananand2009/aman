@@ -59,7 +59,7 @@
   border: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc !important;
   padding: 5px;
-  background-color: #012169 !important;
+  background-color: #6495ED !important;
   color : white;
   text-align: center;
 }
@@ -67,7 +67,7 @@
 .reportTable tr:first-child th {
 position: sticky;
 height: 20px !important;
-background-color: black !important;
+background-color: #0047AB !important;
 min-height: 20px !important;
 top: 0;
 }
