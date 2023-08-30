@@ -89,7 +89,6 @@ z-index: 10;
 .reportTable tr td:nth-child(1) {
  position: sticky;
  left: 0;
- background-color: #dddddd !important;
 }
 
 .reportTable td {
@@ -122,6 +121,7 @@ z-index: 10;
 
 .nonNumeric {
   text-align: left;
+  background-color: #dddddd !important;
 }
 
 .numeric {
