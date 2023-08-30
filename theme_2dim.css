@@ -59,32 +59,32 @@
   border: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc !important;
   padding: 5px;
-  background-color: #6495ED !important;
   color : white;
   text-align: center;
 }
 
-.reportTable tr:first-child th {
+.reportTable tr:nth-child(1) th {
 position: sticky;
 background-color: #0047AB !important;
-height: 40px !important;
-min-height: 40px !important;
-max-height: 40px !important;
+height: 40px ;
+min-height: 40px ;
+max-height: 40px ;
 top: 0;
 z-index: 10;
 }
  
 .reportTable tr:nth-child(2) th {
 position: sticky;
-top: 130px !important;
+top: 150px !important;
 text-align: center !important;
 z-index: 10;
+background-color: red !important;  
 }
 
 .reportTable tr:nth-child(1) th:nth-child(1){
  position: sticky;
  left: 0;
- z-index: 20;
+ z-index: 30;
  }
 
 .reportTable tr:nth-child(2) th:nth-child(1){
